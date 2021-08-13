@@ -44,11 +44,12 @@ nav img{
 header h1{
     color: white;
     margin-bottom: 20px;
+    font-size: 48px;
 }
 
 header #met{
     position:absolute;
-    top: 50%;
+    top: 40%;
     
 }
 
@@ -65,6 +66,55 @@ header #met{
     background-color: rgba(0, 0, 0, 0);
     border: orange 1px solid;
     color: orange;
+}
+
+/* *************************************************************************************** */
+
+
+#fast {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#fast h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+#fast h1::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #cf6d17;
+    margin: 30px auto 0 auto;
+}
+
+#fast p{
+    margin-top: 30px;
+}
+
+#fast div#mags{
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#fast div#mags h5{
+    font-size: 30px;
+}
+
+#fast div#mags p{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#fast div#mags img{
+    width: 50px;
 }
 
 /* *************************************************************************************** */
