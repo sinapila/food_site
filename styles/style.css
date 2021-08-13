@@ -99,23 +99,23 @@ header #met{
     margin-top: 30px;
 }
 
-#fast div#mags{
+#fast div.mags{
     margin: 50px 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
-#fast div#mags h5{
+#fast div.mags h5{
     font-size: 30px;
 }
 
-#fast div#mags p{
+#fast div.mags p{
     margin-top: 10px;
     font-size: 25px;
 }
 
-#fast div#mags img{
+.mags img{
     width: 50px;
 }
 /* *************************************************************************************** */
@@ -160,6 +160,7 @@ header #met{
 
 .phon{
     display: flex;
+    margin-bottom: 2vh;
 }
 
 .phon h1{
@@ -220,6 +221,25 @@ header #met{
     border-radius: 500px;
 }
 
+/* *************************************************************************************** */
+#magss{
+    padding: 0 70px;
+}
+
+#magss div{
+    margin-left: 30px;
+}
+
+#magss div img{
+    height: auto;
+    width: 100%;
+    border-radius: 25px;
+}
+
+#magss a{
+    text-decoration: none;
+    color: #cf6d17;
+}
 /* *************************************************************************************** */
 
 ::-webkit-scrollbar{
