@@ -242,6 +242,51 @@ header #met{
 }
 /* *************************************************************************************** */
 
+#pizza{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), url("../assest/Omnifood Contents/back-customers.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    display: flex;
+    height: 70vh;
+    width: 100%;
+    padding: 5px 100px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#car{
+    margin-top: 10vh;
+    display: flex;
+}
+
+#pizza h5{
+    font-size: 40px;
+}
+
+#pizza p{
+    font-size: 20px;
+}
+
+.fard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fard img{
+    margin-right: 20px;
+    border-radius: 200px;
+    width: 50px;
+}
+/* *************************************************************************************** */
+footer{
+    background-color: #333;
+}
+/* *************************************************************************************** */
+
 ::-webkit-scrollbar{
     width: 15px;
 }
