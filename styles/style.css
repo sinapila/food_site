@@ -69,6 +69,11 @@ header #met{
     color: orange;
 }
 
+#met a#t:hover{
+    background-color: orange;
+    color: white;
+}
+
 /* *************************************************************************************** */
 
 
@@ -282,8 +287,68 @@ header #met{
     width: 50px;
 }
 /* *************************************************************************************** */
-footer{
-    background-color: #333;
+#foot{
+    width: 100%;
+    height: auto;
+    background-color: #282A35;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mes{
+    flex-grow: 1;
+    margin-left: 4%;
+    order: 1;
+}
+
+#mes img{
+    -webkit-filter: opacity(60%);
+    width: 12%;
+}
+
+#mes img:hover{
+    -webkit-filter: opacity(100%);
+}
+
+#toz{
+    flex-grow: 2;
+    order: 3;
+    color: white;
+    text-align: center;
+    padding: 2vh 2%;
+    font-size: 21px;
+    margin: 2vh 3% 2vh 0%;
+    width: 100%;
+    
+}
+
+#nios{
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+    order: 2;
+    color: white;
+    margin-right: 10%;
+    /* padding: 2vh 10%;
+    margin-top: 10vh; */
+    
+    
+}
+
+*{
+    margin: 0;
+}
+
+
+
+#nios input[type="email"]{
+    border-radius: 20px;
+    width: 200px;
+    margin-top: 3vh;
 }
 /* *************************************************************************************** */
 
@@ -291,13 +356,10 @@ footer{
     width: 15px;
 }
 
-::-webkit-scrollbar-track{
-    background-color: yellowgreen;
-    border-radius: 50px;
-}
+
 
 ::-webkit-scrollbar-thumb{
-    background-color: yellow;
+    background-color: #cf6d17;
     border-radius: 50px;
 }
 
