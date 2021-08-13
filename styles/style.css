@@ -13,8 +13,9 @@ header{
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     height: 100vh;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 #bar{
@@ -37,10 +38,36 @@ header{
 
 nav img{
     width: 100px;
-    margin: 20px 0 0 45px;
+    margin: 20px 0 0 0;
 }
 
 header h1{
     color: white;
 
+
+}
+
+header #met{
+    position:absolute;
+    top: 50%;
+    
+}
+/* *************************************************************************************** */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: yellowgreen;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-button{
+    visibility: hidden;
 }
