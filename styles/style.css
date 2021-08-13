@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), url("../assest/Omnifood Contents/hero.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0 20px;
+}
+
+#bar{
+    list-style: none;
+    float: right;
+    margin-top: 55px;
+}
+
+#bar li{
+    display: inline-block;
+    margin-left: 40px;
+    padding: 8px 0;
+}
+
+#bar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav img{
+    width: 100px;
+    margin: 20px 0 0 45px;
+}
+
+header h1{
+    color: white;
+
+}
