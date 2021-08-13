@@ -43,8 +43,7 @@ nav img{
 
 header h1{
     color: white;
-
-
+    margin-bottom: 20px;
 }
 
 header #met{
@@ -52,6 +51,22 @@ header #met{
     top: 50%;
     
 }
+
+#met a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px 30px;
+    background-color: orange;
+    color: white;
+    border-radius: 200px;
+}
+
+#met a#t{
+    background-color: rgba(0, 0, 0, 0);
+    border: orange 1px solid;
+    color: orange;
+}
+
 /* *************************************************************************************** */
 
 ::-webkit-scrollbar{
