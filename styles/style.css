@@ -22,12 +22,15 @@ header{
 #bar{
     list-style: none;
     float: right;
-    margin-top: 55px;
+    margin-top: 6vh;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
 }
 
 #bar li{
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20%;
     padding: 8px 0;
 }
 
@@ -42,6 +45,7 @@ nav img{
     margin: 20px 0 0 0;
 }
 
+
 header h1{
     color: white;
     margin-bottom: 20px;
@@ -49,9 +53,19 @@ header h1{
 }
 
 header #met{
-    position:absolute;
-    top: 40%;
-    
+    margin: 10vh 6% 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#met div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#met h1{
+    text-align: right;
 }
 
 #met a{
