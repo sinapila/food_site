@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+/* *************************************************************************************** */
+
+
+header{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.7),
+        rgba(0,0,0,0.3)), url("../assest/Omnifood Contents/hero.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 0 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div#text_in_head{
+    width: 34%;
+    height: 50vh;
+    background-color: #f4f4f4ce;
+    border-radius: 25px 25px 0 0;
+}
+
+header div#text_in_head p{
+    margin: 2vh 5%;
+    font-size: 27px;
+    text-align: center;
+}
+
+#logo{
+    width: 120px;
+    margin: 20px 0 0 0;
+}
+
+#bace_logo{
+    width: 100%;
+    display: flex;
+}
+
+header h1{
+    color: white;
+    font-size: 90px;
+    margin-bottom: 12vh;
+}
+
+/* *************************************************************************************** */
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.magz-l{
+    background-color: #90c3c5b7;
+    border-radius: 25px;
+    margin: 3vh 5%;
+    display: flex;
+}
+
+.magz-l img{
+    width: 50%;
+    border-radius: 25px 0 0 25px;
+}
+
+.magz-l p{
+    padding: 2vh 3%;
+    font-size: 30px;
+    text-align: right;
+    
+}
+
+.magz-r{
+    background-color: #90c3c5b7;
+    border-radius: 25px;
+    margin: 3vh 5%;
+    display: flex;
+}
+
+.magz-r img{
+    width: 50%;
+    border-radius: 0 25px 25px 0;
+}
+
+.magz-r p{
+    padding: 2vh 3% 0 0;
+    font-size: 30px;
+    text-align: right;
+    
+}
+
+/* *************************************************************************************** */
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: #cf6d17;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-button{
+    visibility: hidden;
+}
