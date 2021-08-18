@@ -45,6 +45,31 @@ nav img{
     margin: 20px 0 0 0;
 }
 
+#subb:hover #sub{
+    display: flex;
+}
+
+#sub:hover{
+    display: flex;
+}
+
+#sub{
+    display: none;
+    position: absolute;
+    top: 9vh;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 2vh;
+    padding: 0.5vh 3%;
+
+}
+
+#sub li{
+    margin: 2px 0;
+    padding: 1vh 0;
+}
 
 header h1{
     color: white;
